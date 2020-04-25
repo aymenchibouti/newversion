@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.backdrop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: .0;
+    filter: alpha(opacity=0);
+    background: #000;
+    z-index: 50;
+    display: none;
+}
+
+.box {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    width: 100%;
+    background: #FFFFFF;
+    height: 100%;
+    opacity: .0;
+    padding: 10px;
+    border-raduis: 5px;
+    -webkit-border-raduis: 5px;
+    -moz-border-raduis: 5px;
+    box-shadow: 0px 0px 5px #444444;
+    -webkit-box-shadow: 0px 0px 5px #444444;
+    -moz-box-shadow: 0px 0px 5px #444444;
+    z-index: 51;
+    display: none;
+}
+
+.close1 {
+    float: right;
+    margin-right: -1px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.title {
+    float: left;
+    margin-left: 220px;
+    z-index: 50;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: -22px;
+}
+
+.blackwall {
+    overflow-y: hidden;
+}
