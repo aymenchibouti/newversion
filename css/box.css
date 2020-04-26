@@ -19,10 +19,9 @@ body {
     position: absolute;
     top: 10%;
     left: 8%;
-    width: 100%;
+    width: 80%;
     background: #FFFFFF;
-    height: 100%;
-    opacity: .0;
+    height: 80%;
     padding: 10px;
     border-raduis: 5px;
     -webkit-border-raduis: 5px;
@@ -40,16 +39,6 @@ body {
     cursor: pointer;
     position: absolute;
     z-index: 1;
-}
-
-.title {
-    float: left;
-    margin-left: 220px;
-    z-index: 50;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    position: absolute;
-    top: -22px;
 }
 
 .blackwall {
